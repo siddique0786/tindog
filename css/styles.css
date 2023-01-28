@@ -1,0 +1,158 @@
+body{
+    font-family: 'montserrat'; 
+}
+
+#title{
+    background-color: #ff4c6d;
+    color: #fff;
+
+}
+.container-fluid{
+    padding: 3% 15% 10%;
+}
+h1{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat';
+
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+h2{
+     
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.h32{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.p1{
+    font-family: 'montserrat-light';
+    font-size: 1.3rem; 
+    color: #8f8f8f;
+}
+
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+   font-family: "Ubuntu"; 
+   font-size: 2.5rem;
+   font-weight: bold; 
+
+}
+.nav-item{
+  padding: 0 18px;  
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+}
+
+/* Download-button */
+.Download-button{
+    margin: 5% 3%  5%;
+    font-family: "montserrat-light" ;
+}
+/* title-image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+/* features */
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+}
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials section */
+
+#testimonials{
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonials-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+} 
+/* pricing-section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
+
+#cta{
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+    /* height: 250px; */
+    padding: 5% 10%;
+}
+.download2-button{
+    margin: 2%;
+}
+
+#footer{
+    background-color: #fff;
+    color: #8f8f8f;
+    text-align: center;
+    font-family: "montserrat-light";
+    /* height: 100px; */
+    padding: 5% 10%;
+}
+.icon2{
+    color: black;
+    margin: 20px 10px;
+}
+.icon2:hover{
+
+}
